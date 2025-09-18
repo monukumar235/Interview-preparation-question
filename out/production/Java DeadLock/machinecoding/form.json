@@ -1,0 +1,27 @@
+{
+  "title": "User Registration",
+  "fields": [
+    {
+      "label": "Name",
+      "type": "text",
+      "required": true
+    },
+    {
+      "label": "Age",
+      "type": "number",
+      "required": true,
+      "min": 18,
+      "max": 99
+    },
+    {
+      "label": "Gender",
+      "type": "dropdown",
+      "required": true,
+      "options": ["Male", "Female", "Other"]
+    },
+    {
+      "label": "Subscribe to Newsletter",
+      "type": "checkbox"
+    }
+  ]
+}
