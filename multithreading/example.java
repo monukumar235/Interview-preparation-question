@@ -1,3 +1,5 @@
+package multithreading;
+
 public class example {
      class animal{
         void sound(){

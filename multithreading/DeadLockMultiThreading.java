@@ -1,3 +1,5 @@
+package multithreading;
+
 import java.lang.management.ManagementFactory;
 import java.lang.management.ThreadInfo;
 import java.lang.management.ThreadMXBean;
@@ -61,7 +63,7 @@ public class DeadLockMultiThreading {
         t1.start();
         t2.start();
 
-        new Thread(new DeadLockDetector(),"DeadLockDetector").start();
+        new Thread(new DeadLockDetector(),"multithreading.DeadLockDetector").start();
 
     }
 }
